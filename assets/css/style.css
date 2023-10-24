@@ -204,24 +204,24 @@ nav {
     row-gap: 2.5rem;
 
     overflow: hidden;
-    transition: .5s;
+    transition: 0.5s;
   }
-    .nav-lists .nav-item:first-child{
-      padding-top: 2.5rem;
-    }
+  .nav-lists .nav-item:first-child {
+    padding-top: 2.5rem;
+  }
 
-.extra{
+  .extra {
     overflow: visible;
     height: 50rem;
     animation: extraTime linear 1s forwards;
   }
 
-  @keyframes extraTime{
-    0%{
+  @keyframes extraTime {
+    0% {
       top: -1000%;
       overflow: hidden;
     }
-    100%{
+    100% {
       top: 6rem;
       overflow: visible;
     }
@@ -234,6 +234,61 @@ nav {
     color: cyan;
   }
   .toggle {
-  display: block;
+    display: block;
+  }
 }
+
+/* ------------------------
+Service section start here
+-----------------------------*/
+
+.service {
+  padding: 4rem 5%;
+  background-color: rgba(255, 255, 255, 0.1);
+  position: relative;
+}
+.service-wrap {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem 1.5rem;
+}
+
+.single-service {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 5px 1rem rgba(0, 0, 0, 0.14);
+  border-radius: 0.6rem;
+  transition: .5s ;
+}
+
+.single-service:hover{
+  transform: translateY(-.8rem);
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.1);
+
+}
+
+
+.single-service i{
+  width: 3rem;
+  height: 3rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  text-align: center;
+  line-height: 3rem;
+  border-radius: 50%;
+  color: #081a42;
+
+}
+
+.service-title {
+    font-size: 2rem;
+    margin: 1rem 0px;
+    color: rgb(205 201 201 / 76%);
+    text-transform: capitalize;
+}
+
+.single-service p {
+    color: #a9aeb3;
+    font-size: 1.5rem;
 }
