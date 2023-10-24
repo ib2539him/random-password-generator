@@ -1,0 +1,26 @@
+/* variable */
+:root {
+  --body-color: #efefef;
+  --nav-color: #1876f2;
+  --green-color: #41db51;
+  --skyblue-color: #cbdffa;
+  --gray-color: #626262;
+  --white-color: #fff;
+}
+/* dark mode */
+.dark-theme {
+  --body-color: #0a0a0a;
+  --nav-color: #000;
+  --white-color: #000;
+}
+
+/* Basic style for design  */
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
