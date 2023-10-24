@@ -292,3 +292,24 @@ Service section start here
     color: #a9aeb3;
     font-size: 1.5rem;
 }
+
+.para {
+    margin-bottom: 1.5rem;
+    color: #aaa;
+    padding-bottom: 1rem;
+    border-bottom: .2rem solid rgb(222 208 208 / 14%);
+}
+
+.para::first-letter{
+  font-size: 3rem;
+  color: cyan;
+  margin-right: 0.3rem;
+}
+
+.para::first-line {
+    color: rgb(136 144 160);
+}
+
+.para::selection{
+  background-color: #153677;
+}
