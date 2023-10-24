@@ -307,7 +307,7 @@ Service section start here
 }
 
 .para::first-line {
-    color: rgb(136 144 160);
+    color: #8890a0;
 }
 
 .para::selection{

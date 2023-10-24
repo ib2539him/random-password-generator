@@ -51,3 +51,7 @@ function showTask() {
     listContainer.innerHTML=localStorage.getItem('data')
 }
 showTask();
+
+
+text color
+#8890a0
